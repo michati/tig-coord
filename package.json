@@ -1,4 +1,14 @@
 {
-  "name": "application-name",
-  "version": "0.0.1"
+  "name": "tig-coord",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "nconf": "^0.8.2",
+    "supertest": "^1.1.0",
+    "winston": "^2.1.1"
+  }
 }
